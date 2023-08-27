@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<div class="container">
+   <div class="movie-container">
+        <div class="search-container">
+            <input type="text" class="search-movie-input" placeholder="Bulmak istediğiniz filmin adını yazınız">
+            <i class="fa-solid fa-magnifying-glass search-movie-icon"></i>
+        </div>
+            <div class="result-movie-container">
+                <span>Bir film veya dizi aratın.</span>
+            </div>
+            <div class="all-movie">
+                <span class="all-movie-route">DAHA FAZLA SONUÇ</span>
+            </div>
+        <div class="result-listing">
+        </div>
+   </div>
+   <div class="favorites">
+    <span id="mbtn" >Favoriler</span>
+   </div>
+
+    <div id="modalDialog" class="modal">
+        <div class="modal-content animate-top">
+            <div class="modal-header">
+                <h5 class="modal-title">Favoriler</h5>
+                <button type="button" class="close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cookie-banner" style="display: none;">
+    Bu web sitesi çerezleri kullanmaktadır.
+    <button id="accept-cookies">Çerezleri Kabul Et</button>
+</div>
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>

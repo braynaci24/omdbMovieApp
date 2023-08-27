@@ -1,0 +1,19 @@
+{
+  "name": "case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "jquery": "^3.7.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1",
+    "sweetalert2": "^11.7.27"
+  }
+}
